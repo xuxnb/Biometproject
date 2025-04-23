@@ -1,0 +1,161 @@
+/* 全局样式 */
+body {
+  font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* 导航栏样式 */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* 卡片样式 */
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-weight: bold;
+}
+
+/* 项目列表样式 */
+.project-list .card {
+  cursor: pointer;
+}
+
+.project-list .card-body {
+  padding: 1.25rem;
+}
+
+.project-status {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.status-active {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.status-completed {
+  background-color: #e2e3e5;
+  color: #41464b;
+}
+
+.status-delayed {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.status-planned {
+  background-color: #cfe2ff;
+  color: #084298;
+}
+
+/* 表单样式 */
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.form-floating {
+  margin-bottom: 1rem;
+}
+
+/* 选项卡样式 */
+.nav-tabs {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+  color: #6c757d;
+  padding: 0.75rem 1rem;
+  margin-bottom: -2px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #0d6efd;
+  border-bottom: 2px solid #0d6efd;
+  background-color: transparent;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.tab-content {
+  padding: 1.5rem 0;
+}
+
+/* 表格样式 */
+.table {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+  .col, [class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .card {
+    margin-bottom: 15px;
+  }
+  
+  .form-section {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* 工具类 */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-left-primary {
+  border-left: 4px solid #0d6efd;
+}
+
+.border-left-success {
+  border-left: 4px solid #198754;
+}
+
+.border-left-warning {
+  border-left: 4px solid #ffc107;
+}
+
+.border-left-danger {
+  border-left: 4px solid #dc3545;
+} 
