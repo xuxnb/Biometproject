@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="error-container mt-5">
+                <h1 class="display-4 text-danger mb-4">
+                    <i class="bi bi-exclamation-triangle"></i> 
+                    <%= statusCode || 500 %>
+                </h1>
+                <h2 class="mb-4"><%= message || "发生错误" %></h2>
+                
+                <% if (details && process.env.NODE_ENV !== 'production') { %>
+                    <div class="alert alert-secondary text-start mt-4">
+                        <h5>技术详情</h5>
+                        <pre class="mb-0"><%= details %></pre>
+                    </div>
+                <% } %>
+                
+                <div class="mt-5">
+                    <a href="/" class="btn btn-primary">返回首页</a>
+                    <button onclick="history.back()" class="btn btn-outline-secondary ms-2">返回上一页</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .error-container {
+        padding: 40px 0;
+    }
+</style> 
