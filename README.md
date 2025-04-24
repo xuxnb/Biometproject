@@ -50,7 +50,7 @@ project-management-system/
 ├── public/               # 静态资源
 │   ├── css/              # CSS样式文件
 │   └── js/               # JavaScript文件
-├── uploads/              # 上传文件存储目录
+├── uploads/              # 上传文件存储目录老婆，；o-
 └── views/                # EJS模板
     ├── layout.ejs        # 主布局模板
     ├── index.ejs         # 主页/项目列表
