@@ -66,6 +66,20 @@ body {
   color: #084298;
 }
 
+/* 日期信息样式 */
+.project-dates {
+  line-height: 1.3;
+}
+
+.project-dates small {
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.project-dates .text-muted {
+  margin-bottom: 3px;
+}
+
 /* 表单样式 */
 .form-section {
   margin-bottom: 2rem;

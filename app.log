@@ -25,3 +25,12 @@
 {"timestamp":"2025-04-26T12:34:29.727Z","level":"DEBUG","message":"Successfully fetched project details","data":{"id":"2","hasMilestones":false,"hasMaterials":false,"hasDocuments":false,"hasTeam":false,"hasPlans":false}}
 {"timestamp":"2025-04-26T12:39:21.068Z","level":"INFO","message":"Getting project details","data":{"id":"2"}}
 {"timestamp":"2025-04-26T12:39:21.069Z","level":"DEBUG","message":"Successfully fetched project details","data":{"id":"2","hasMilestones":false,"hasMaterials":false,"hasDocuments":false,"hasTeam":false,"hasPlans":false}}
+{"timestamp":"2025-04-26T12:44:49.127Z","level":"WARN","message":"404 Not Found","data":{"url":"/favicon.ico"}}
+{"timestamp":"2025-04-26T12:44:55.157Z","level":"INFO","message":"Getting project details","data":{"id":"2"}}
+{"timestamp":"2025-04-26T12:44:55.158Z","level":"DEBUG","message":"Successfully fetched project details","data":{"id":"2","hasMilestones":false,"hasMaterials":false,"hasDocuments":false,"hasTeam":false,"hasPlans":false}}
+{"timestamp":"2025-04-26T12:48:44.498Z","level":"INFO","message":"Getting project details","data":{"id":"1"}}
+{"timestamp":"2025-04-26T12:48:44.500Z","level":"DEBUG","message":"Successfully fetched project details","data":{"id":"1","hasMilestones":false,"hasMaterials":false,"hasDocuments":false,"hasTeam":false,"hasPlans":false}}
+{"timestamp":"2025-04-26T12:48:50.588Z","level":"INFO","message":"Getting project details","data":{"id":"2"}}
+{"timestamp":"2025-04-26T12:48:50.588Z","level":"DEBUG","message":"Successfully fetched project details","data":{"id":"2","hasMilestones":false,"hasMaterials":false,"hasDocuments":false,"hasTeam":false,"hasPlans":false}}
+{"timestamp":"2025-04-26T12:49:03.587Z","level":"INFO","message":"Getting project details","data":{"id":"1"}}
+{"timestamp":"2025-04-26T12:49:03.588Z","level":"DEBUG","message":"Successfully fetched project details","data":{"id":"1","hasMilestones":false,"hasMaterials":false,"hasDocuments":false,"hasTeam":false,"hasPlans":false}}
